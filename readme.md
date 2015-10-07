@@ -28,7 +28,7 @@ const cmds = {
 exude(cmds)
 	.then(console.log,console.error)
 	.catch(function(e){
-		console.error('Unkown OS!');
+		console.error('Unknown OS!');
 	});
 ```
 
