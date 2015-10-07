@@ -23,12 +23,12 @@ const cmds = {
 	'linux': 'ls',
 	'osx': 'ls',
 	'windows': 'dir'
-}
+};
 
 exude(cmds)
 	.then(console.log,console.error)
 	.catch(function(e){
-	  console.error('Unkown OS!');
+		console.error('Unkown OS!');
 	});
 ```
 
