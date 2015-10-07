@@ -1,4 +1,4 @@
-# exude 
+# exude [![Build Status](https://travis-ci.org/hemanth/exude.svg)](https://travis-ci.org/hemanth/exude)
 
 > Execute the OS specific command.
 
