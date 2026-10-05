@@ -1,6 +1,6 @@
 {
   "name": "exude",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Execute the OS specific command.",
   "license": "MIT",
   "repository": "hemanth/exude",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && mocha"
+    "test": "mocha --exit test.js"
   },
   "files": [
     "index.js"
@@ -27,16 +27,15 @@
     "cmd"
   ],
   "dependencies": {
-    "es6-promisify": "^3.0.0",
+    "es6-promisify": "^7.0.0",
     "is-linux": "^1.0.1",
-    "is-object": "^1.0.1",
+    "is-object": "^1.0.2",
     "is-osx": "^1.0.2",
-    "is-windows": "^0.1.0",
-    "lowercase-keys": "^1.0.0"
+    "is-windows": "^1.0.2",
+    "lowercase-keys": "^4.0.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "xo": "^0.7.1"
+    "mocha": "^11.7.0"
   },
   "xo": {
     "envs": [
